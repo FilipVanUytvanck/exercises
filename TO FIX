@@ -1,0 +1,7 @@
+01-basic-python
+    04-lists
+        06-contains-duplicates  4 fails
+        12-rotate   36 fails
+    05-strings
+        01-format-time  1 fail
+Total 41 fails
