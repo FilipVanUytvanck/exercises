@@ -1,3 +1,4 @@
 def rotate(xs, n):
-    xs = xs[n:] + xs[:n]
-    return xs
+    for _ in range(n):
+        x = xs.pop(0)
+        xs.append(x)
