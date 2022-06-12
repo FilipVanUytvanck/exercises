@@ -28,4 +28,3 @@ with open('output.txt', 'w') as out:
         table = result[location]
         cap = max(table.values())
         out.write(f'{location} {cap}\n')
-

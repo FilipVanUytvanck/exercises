@@ -5,7 +5,7 @@ import csv
 counts = Counter()
 
 
-with open('input.txt') as file:
+with open('input.csv') as file:
     reader = csv.DictReader(file)
     for line in reader:
         for key in line.keys():

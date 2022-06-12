@@ -12,7 +12,7 @@ relies on the `with` construct.
 The script should be used as follows:
 
 ```bash
-$ python print-file.py FILE
+$ python print.py FILE
 ```
 
 If you are running your solution in your working folder, you could pass your own script or the explanations file to your solution as test file.
